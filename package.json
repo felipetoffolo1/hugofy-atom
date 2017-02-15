@@ -1,0 +1,19 @@
+{
+  "name": "hugofy",
+  "main": "./lib/hugofy",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": ["hugofy:setTheme","hugofy:startServer","hugofy:newPost"]
+  },
+  "repository": "https://github.com/atom/hugofy",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+     "opn": "^4.0.2"
+  }
+}

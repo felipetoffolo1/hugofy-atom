@@ -1,0 +1,42 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Set theme hugofy",
+        "command": "hugofy:setTheme"
+      },
+      {
+        "label": "Start Server",
+        "command": "hugofy:startServer"
+      },
+      {
+        "label": "New Post",
+        "command": "hugofy:newPost"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "hugofy",
+          "submenu": [
+            {
+              "label": "Set Theme",
+              "command": "hugofy:setTheme"
+            },
+            {
+              "label": "Start Server",
+              "command": "hugofy:startServer"
+            },
+            {
+              "label": "New Post",
+              "command": "hugofy:newPost"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
