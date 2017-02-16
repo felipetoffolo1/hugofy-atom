@@ -1,12 +1,15 @@
 {
   "name": "hugofy",
   "main": "./lib/hugofy",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A Hugo Static Website Generator package for Atom",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
-    "atom-workspace": ["hugofy:stopServer","hugofy:startServer","hugofy:newPost"]
+    "atom-workspace": [
+      "hugofy:stopServer",
+      "hugofy:startServer",
+      "hugofy:newPost"
+    ]
   },
   "repository": "https://github.com/felipetoffolo1/hugofy-atom",
   "license": "MIT",
@@ -14,6 +17,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-     "opn": "^4.0.2"
+    "opn": "^4.0.2"
   }
 }
