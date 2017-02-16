@@ -10,6 +10,6 @@ Implemented Actions:
 ### config
 
 Just set your theme name on the package settings
-![A screenshot of your package](https://github.com/felipetoffolo1/hugofy-atom/screenshot.png)
+![A screenshot of your package](https://github.com/felipetoffolo1/hugofy-atom/blob/master/screenshot.png)
 
 This packages was inspired on [hugofy-vscode](https://github.com/akmittal/hugofy-vscode)
