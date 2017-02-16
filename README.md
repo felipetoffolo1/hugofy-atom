@@ -1,5 +1,15 @@
-# hugofy package
+# hugofy-atom package
 
-A short description of your package.
+This package add some [Hugo](gohugo.io) actions on Atom
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+Implemented Actions:
+- Start Server
+- Stop Server
+- New Post
+
+### config
+
+Just set your theme name on the package settings
+![A screenshot of your package](https://github.com/felipetoffolo1/hugofy-atom/screenshot.png)
+
+This packages was inspired on [hugofy-vscode](https://github.com/akmittal/hugofy-vscode)

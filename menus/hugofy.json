@@ -1,13 +1,14 @@
 {
   "context-menu": {
     "atom-text-editor": [
-      {
-        "label": "Set theme hugofy",
-        "command": "hugofy:setTheme"
-      },
+
       {
         "label": "Start Server",
         "command": "hugofy:startServer"
+      },
+      {
+        "label": "Stop Server",
+        "command": "hugofy:stopServer"
       },
       {
         "label": "New Post",
@@ -23,12 +24,12 @@
           "label": "hugofy",
           "submenu": [
             {
-              "label": "Set Theme",
-              "command": "hugofy:setTheme"
-            },
-            {
               "label": "Start Server",
               "command": "hugofy:startServer"
+            },
+            {
+              "label": "Stop Server",
+              "command": "hugofy:stopServer"
             },
             {
               "label": "New Post",
